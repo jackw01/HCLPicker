@@ -1,0 +1,111 @@
+.link-box {
+    padding: 0.8em 1.2em;
+    margin-bottom: 2em;
+    line-height: 1.4em;
+    -webkit-transition: all 0ms, transform 200ms ease;
+    -moz-transition: transform 200ms ease;
+    -o-transition: transform 200ms ease;
+    transition: all 0ms;
+    color: #646464;
+}
+
+.mainpage-header {
+    font-family: Barlow;
+    font-weight: 100;
+    font-size: 2.6em;
+    margin-bottom: 0.3em;
+}
+
+.smalltext {
+    font-size: 11px;
+    font-weight: 200;
+}
+
+.border-teal {
+    border-left: 3px solid #00b2bd;
+}
+
+.border-pink {
+    border-left: 3px solid #f2289b;
+}
+
+.accent-teal {
+    color: #00b2bd;
+}
+
+.accent-pink {
+    color: #f2289b;
+}
+
+.input-table {
+    margin-top: 5px;
+}
+
+.input-table td {
+    padding: 0.4em 1em 0;
+    height: 4em;
+}
+
+.label-td {
+    width: 10em;
+}
+
+.slider-td {
+    width: 100%;
+}
+
+.number-td {
+    width: 10em;
+}
+
+.slider-container {
+    width: 100%;
+}
+
+textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[type="number"]:focus {
+    border: none;
+}
+
+.output, .output-small {
+    -webkit-box-shadow: 0 1px 1px rgba(255,255,255,.08), inset 0 1px 3px rgba(0,0,0,.65);
+	-moz-box-shadow: 0 1px 1px rgba(255,255,255,.08), inset 0 1px 3px rgba(0,0,0,.65);
+	box-shadow: 0 1px 1px rgba(255,255,255,.08), inset 0 1px 3px rgba(0,0,0,.65);
+}
+
+.output {
+    width: 100%;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.output-small {
+    width: 11.6%;
+    margin: 1px;
+    height: 3em;
+    border-radius: 15px;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    display: inline-block;
+}
+
+#output-color div {
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+
+canvas {
+    image-rendering: auto;
+}
+
+@media only screen and (min-width: 640px) {
+
+    .content-box {
+        width: 30em;
+    }
+}
